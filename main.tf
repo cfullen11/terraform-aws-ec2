@@ -5,7 +5,6 @@ resource "aws_instance" "centos7" {
   availability_zone       = var.az
   vpc_security_group_ids  = var.security_group_id
   subnet_id               = var.subnet_id
-  region                  = var.region
 
   tags = {
     Name = "HelloWorld"
