@@ -5,8 +5,8 @@ variable "region" {
 }
 
 variable "az" {
-  default = ["us-east-2a"]
-  type    = list(string)
+  default = "us-east-2a"
+
 }
 
 variable "security_group_id" {
