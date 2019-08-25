@@ -10,7 +10,7 @@ variable "az" {
 }
 
 variable "security_group_id" {
-  type    = list(string)
+  type    = string
 }
 
 variable "subnet_id" {
